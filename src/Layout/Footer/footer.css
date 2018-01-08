@@ -1,0 +1,17 @@
+#footer {
+  box-sizing: border-box;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center; }
+  @media screen and (min-width: 500px) {
+    #footer {
+      flex-direction: row; } }
+  #footer .social {
+    text-align: right; }
+    #footer .social .social-link {
+      margin: 5px; }
+  #footer .email {
+    text-align: left; }
