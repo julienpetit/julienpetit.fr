@@ -19,7 +19,7 @@
     "predeploy": "npm run build",
     "deploy-gh": "gh-pages -d build && git push",
     "start": "react-scripts start",
-    "build": "react-scripts build && mv build docs",
+    "build": "react-scripts build && mv build docs && cp docs/index.html docs/404.html",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "build-css": "node-sass-chokidar src/ -o src/",
