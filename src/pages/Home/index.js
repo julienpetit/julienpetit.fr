@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from '../../Layout/Header';
 import Footer from '../../Layout/Footer';
 import './home.css';
+import Avatar from '../../components/Avatar';
 
 class Home extends Component {
     render() {
@@ -11,6 +12,11 @@ class Home extends Component {
                 <Header />
 
                 <div id="home-main-section-wrapper">
+
+                    <section id="avatar">
+                        <Avatar />
+                    </section>
+
                     <section id="greetings">
                         <p>Hello</p>
                     </section>

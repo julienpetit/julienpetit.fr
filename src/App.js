@@ -5,7 +5,6 @@ import PageTransition from 'react-router-page-transition';
 import Home from './pages/Home';
 import Timeline from './pages/Timeline';
 
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {

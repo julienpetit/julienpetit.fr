@@ -22,6 +22,12 @@
     padding: 20px;
   }
 
+  #avatar {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
   #greetings {
     p {
       font-size: 2rem;
