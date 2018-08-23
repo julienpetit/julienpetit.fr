@@ -18,14 +18,14 @@ class Home extends Component {
                     </section>
 
                     <section id="greetings">
-                        <p>Hello</p>
+                        <p>Hello, I'm Julien Petit</p>
                     </section>
 
                     <section id="about">
                         <h3 className="section-title">Info.</h3>
                         <div className="content">
-                            I'm Julien Petit, a creative software engineer from Nantes who likes to craft web and mobile applications.
-                            I'm currently <a href="https://troopers.agency">@TroopersAgency</a> where I build custom applications with React/Redux and Symfony.
+                           I'm a software engineer from Nantes who likes to craft web and mobile applications.
+                            I'm currently <a href="https://www.deltace.fr/" target='_blank'>@deltaCE</a> where I build custom applications with React/Redux and Symfony.
                         </div>
                     </section>
 
@@ -33,9 +33,13 @@ class Home extends Component {
                         <h3 className="section-title">Labo.</h3>
                         <div className="content">
                             <div className="projects">
-                                <a className="project" href="https://itunes.apple.com/fr/app/r%C3%A9ussir-son-permis-moto/id820931415">Réussir son permis moto</a>
-                                <a className="project" href="https://www.catherineboutique.fr">Catherine Boutique</a>
-                                <a className="project" href="https://www.eoleairpassion.fr">Éole Air Passion</a>
+                                <a className="project" target='_blank' href="https://itunes.apple.com/fr/app/r%C3%A9ussir-son-permis-moto/id820931415">Réussir son permis moto</a>
+                                <a className="project" target='_blank' href="https://www.catherineboutique.fr">Catherine Boutique</a>
+                                <a className="project" target='_blank' href="https://www.eoleairpassion.fr">Éole Air Passion</a>
+                                <a className="project" target='_blank' href="https://www.street-artwork.com">Street Artwork</a>
+                                <a className="project" target='_blank' href="">Catherine Boutique - Gestion d'entreprise</a>
+                                <a className="project" target='_blank' href="">TOEFL Training</a>
+                                <a className="project" target='_blank' href="">Indoor Positioning System</a>
                             </div>
                         </div>
                     </section>
