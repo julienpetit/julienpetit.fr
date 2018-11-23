@@ -25,7 +25,6 @@ class Home extends Component {
                         <h3 className="section-title">Info.</h3>
                         <div className="content">
                            I'm a software engineer from Nantes who likes to craft web and mobile applications.
-                            I'm currently <a href="https://www.deltace.fr/" target='_blank'>@deltaCE</a> where I build custom applications with React/Redux and Symfony.
                         </div>
                     </section>
 
